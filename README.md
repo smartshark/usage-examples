@@ -26,7 +26,7 @@ mongorestore --gzip --archive=smartshark_sample.agz
 
 ## Running the Notebook
 
-To run our python, you only need our library [pycoshark](https://github.com/smartshark/pycoSHARK) and [Jupyter Lab](https://jupyter.org/install) (or any other app, that can work with Jupyter Notebooks). 
+To run our [sample analysis](https://github.com/smartshark/usage-examples/blob/main/Example-Notebook.ipynb), you only need our library [pycoshark](https://github.com/smartshark/pycoSHARK) and [Jupyter Lab](https://jupyter.org/install) (or any other app, that can work with Jupyter Notebooks). 
 
 For example, you could run the following commands in your Ubuntu 18.04 machine to get everything running.
 
