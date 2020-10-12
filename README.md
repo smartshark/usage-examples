@@ -20,8 +20,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo systemctl daemon-reload
 sudo systemctl start mongod
-wget https://user.informatik.uni-goettingen.de/~sherbol/smartshark_sample.agz
-mongorestore --gzip --archive=smartshark_sample.agz
+mongorestore --gzip --archive=smartshark_1_0.agz
 ```
 
 ## Running the Notebook
