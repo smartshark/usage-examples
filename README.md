@@ -13,9 +13,9 @@ First, you need to prepare a local database for analysis.
 For example, on Ubuntu 18.04 you can achieve all this as follows for release 2.1 of the database. *This requires about 650 GB of free disk space!*
 
 ```
-wget -O smartshark_2_1.agz https://141.5.100.155/smartshark_2_1.agz
+wget -O smartshark_2_1.agz http://141.5.100.155/smartshark_2_1.agz
 # download the following archive for the small version without code clones and code metrics, which only requires about 90 GB of free disk space
-# wget -O smartshark_2_1.agz https://141.5.100.155/smartshark_2_1_small.agz
+# wget -O smartshark_2_1.agz http://141.5.100.155/smartshark_2_1_small.agz
 wget -qO - https://www.mongodb.org/static/pgp/server-4.0.asc | sudo apt-key add -
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 sudo apt-get update
